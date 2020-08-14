@@ -15,3 +15,5 @@ summary(fit)
 
 
 
+fit1 = lm(formula = accident~cctv+sign+type+school+roundabout, data =df)
+summary(fit1)
